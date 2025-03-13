@@ -42,7 +42,7 @@ The techniques were applied to air quality forecasting in Spain and indoor tempe
 ```
 
 ## Installation
-Ensure you have Python installed and install the following dependencies:
+Ensure you have Python 3.10 installed and install the following dependencies:
 ```sh
 pip install -r requirements.txt
 ```
