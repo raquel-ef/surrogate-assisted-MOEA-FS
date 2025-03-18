@@ -49,11 +49,11 @@ pip install -r requirements.txt
 
 
 ## Usage
-1. **Prepare the dataset**. Place data in `.arff` format in the `data/` directory. Note that the data must be previously transformed using a sliding window method (see function `lags` in `utils.py` for this transformation).
-2. **Train the surrogate model**. Train the surrogate model using `build_LSTM.py` file. The parameters should be previously configured in `config.py`.
-3. **Search the best problem**. Run the notebook `Problem search.ipynb` to find the best problem (objectives combination).
-4. **Search the best algorithm**. Once the best problem is selected run the notebook `Algorithm search.ipynb` to find the best algorithm. Note that by default the problem will be `FS_O1O2O3_LSTM.py`
-5. **Compare with other feature selection methods**. Run the notebook `Comparisons FS methods.ipynb` to compare with other FS methods:
+1. **Prepare the dataset**. Place data in `.arff` format in the [data](/data/) directory. Note that the data must be previously transformed using a sliding window method (see function `lags` in [utils](/src/utils.py) for this transformation).
+2. **Train the surrogate model**. Train the surrogate model using [build_LSTM](/build_LSTM.py) file. The parameters should be previously configured in [config](/config/config.py).
+3. **Search the best problem**. Run the notebook [Problem search](/notebooks/Problem%20search.ipynb) to find the best problem (objectives combination).
+4. **Search the best algorithm**. Once the best problem is selected run the notebook [Algorithm search](/notebooks/Algorithm%20search.ipynb) to find the best algorithm. Note that by default the problem will be `FS_O1O2O3_LSTM.py`
+5. **Compare with other feature selection methods**. Run the notebook [Comparisons FS methods](/notebooks/Comparisons%20FS%20methods.ipynb) to compare with other FS methods:
 
     - Wrapper multi-objective evolutionary FS method based on Linear Regression
     - Wrapper multi-objective evolutionary FS method based on Random Forest
@@ -75,5 +75,5 @@ If you use this software in your work, please include the following citation:
 ```
 
 ## License
-MIT License
+[MIT License](/LICENSE)
 
